@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    position: relative;
+    margin-top: -15px;
+    box-shadow: 0px 0px 10px #CCCCCC;
+}
+.register_content{
+    width: 328px;
+    margin: 0 auto;
+    margin-top: 35px;
+}
+.register_content h1{
+    text-align: center;
+}
+.register_content .form_list{
+    /*text-indent: 20px;*/
+    margin-top: 10px;
+    border: 1px solid #dedede;
+}
+.register_content .form_list2{
+    /*text-indent: 20px;*/
+    /*width: 190px;*/
+    margin-top: 10px;
+}
+.register_content .form_list .form_list_1{
+    width: 300px;
+    height: 50px;
+    border: 0;
+    margin-left: 20px;
+    line-height: 50px;
+}
+.register_content .form_list2 .form_list_2{
+    width: 190px;
+    height: 50px;
+    border: 0;
+    float: left;
+    border: 1px solid #dedede;
+    /*margin-left: 20px;*/
+    text-indent: 20px;
+    line-height: 50px;
+}
+.register_content .form_list2 .getpassword{
+    width: 125px;
+    height: 47px;
+    float: right;
+    border: none;
+    border-radius: 3px;
+    color: #ffFFFF;
+    cursor: pointer;
+    background-color: #57565f;
+}
+.register_content p{
+    height: 30px;
+    line-height: 30px;
+    margin-top: 10px;
+    color: #666666;
+    text-indent: 10px;
+}
+.register_content .agree_button{
+    width: 330px;
+    height: 50px;
+    background-color: #ff3c3c;
+    color: #ffFFFF;
+    border: 0;
+    font-size: 14px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.foot{
+    width: 980px;
+    margin: 50px auto;
+    text-align: center;
+}
+.foot p a{
+    color: #333333;
+}
+.foot p a:hover{
+    color: #ff4e00;
+}

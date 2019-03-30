@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 微软雅黑;
+}
+.header{
+    width: 100%;
+    border-bottom: 1px solid #e1e1e1;
+}
+.header .login_top{
+    height: 60px;
+    width: 1200px;
+    margin: 15px auto;
+}
+.header .login_top .logo{
+    float: left;
+}
+.header .login_top .title{
+    float: right;
+}
+.header .login_top .title p{
+    float: left;
+    color: #999999;
+    margin-top: 7px;
+}
+.header .login_top .title p a{
+    color: #0066cc;
+}
+.header .login_top .title p a:hover,.container .content .content_right .login_title a:hover{
+    color: #ff4e00;
+}
+.header .login_top .title .help a{
+    color: #999999;
+}
+.header .login_top .title .help{
+    width: 100px;
+    height: 27px;
+    line-height: 27px;
+    border: none;
+    border: 1px solid #e1e1e1;
+    background-color: #fff;
+    float: left;
+    font-size: 12px;
+    margin-left: 25px;
+}
+.header .login_top .title .tu1{
+    display: inline-block;
+    width: 19px;
+    height: 17px;
+    background: url("../images/runbun.png") no-repeat 2px center;
+    vertical-align: middle;
+}
+.header .login_top .title .tu2{
+    display: inline-block;
+    width: 15px;
+    height: 16px;
+    background: url("../images/turnb.png")no-repeat 0px center;
+    vertical-align: middle;
+}
+.container{
+    width: 980px;
+    margin: auto;
+}
+.container .content{
+    width: 100%;
+}
+.container .content .content_left{
+    float: left;
+    margin-top: 30px;
+}
+.container .content .content_right{
+    width: 330px;
+    float: left;
+    margin-left: 140px;
+}
+.container .content .content_right .login_title{
+    height: 20px;
+    line-height: 20px;
+    margin-top: 80px;
+}
+.container .content .content_right .login_title h3{
+    font-size: 14px;
+    float: left;
+    margin-bottom: 5px;
+}
+.container .content .content_right .login_title a{
+    color:#0066cc ;
+    float: right;
+}
+.clearfix{
+    clear: both;
+}
+.container .content .content_right .form_item{
+    width: 330px;
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: 10px;
+    border: 1px solid #e1e1e1;
+}
+.container .content .content_right .form_item .user{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin:0 20px;
+    background: url("../images/userHead.png");
+    background-size: 100% 100%;
+    vertical-align: middle;
+}
+.container .content .content_right .form_item .user_input{
+    width: 250px;
+    height: 50px;
+    border: none;
+}
+.container .content .content_right .form_item .password{
+    display: inline-block;
+   width: 20px;
+    height: 20px;
+    margin:0 20px;
+    background: url("../images/lock.png");
+    background-size: 100% 100%;
+    vertical-align: middle;
+}
+.container .content .content_right .autologin{
+    margin-left: 5px;
+    color: #999999;
+}
+.container .content .content_right .autologin a{
+    color: #999999;
+}
+/*.container .content .content_right .autologin a:hover{*/
+    /*color: #ff4e00;*/
+/*}*/
+.container .content .content_right .autologin .autologin_icon{
+    margin-right: 10px;
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    border: 1px solid #999;
+    vertical-align: middle;
+}
+.container .content .content_right .autologin .forget{
+    float: right;
+}
+.container .content .content_right .login_button{
+    margin-top: 15px;
+}
+.container .content .content_right .login_button .loginbutton{
+    width: 330px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    background-color: #ff3c3c;
+    color: #ffFFFF;
+    font-size: 16px;
+    cursor: pointer;
+}
+.container .content .content_right .more{
+    margin-top: 15px;
+}
+.container .content .content_right .more p{
+    font-size: 13px;
+    color: #666666;
+}
+.container .content .content_right .more .web_icon{
+    margin-top: 15px;
+}
+.container .content .content_right .more .web_icon ul li{
+    list-style: none;
+    float: left;
+    margin-right: 20px;
+}
+.container .content .content_right .more .web_icon ul li:nth-of-type(1) a{
+        display: inline-block;
+    width: 34px;
+    height: 34px;
+    background: url("../images/qqf.png");
+    background-size: 100% 100%;
+
+}
+.container .content .content_right .more .web_icon ul li:nth-of-type(2) a{
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    background: url("../images/wbf.png");
+    background-size: 100% 100%;
+
+}
+.container .content .content_right .more .web_icon ul li:nth-of-type(3) a{
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    background: url("../images/zhif.png");
+    background-size: 100% 100%;
+
+}
+.container .content .content_right .more .web_icon ul li:nth-of-type(4) a{
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    background: url("../images/wxf.png");
+    background-size: 100% 100%;
+
+}
+.container .content .content_right .more .web_icon ul li:nth-of-type(1) a:hover{
+    background: url("../images/qqt.png");
+    background-size: 100% 100%;
+}
+.container .content .content_right .more .web_icon ul li:nth-of-type(2) a:hover{
+    background: url("../images/wbt.png");
+    background-size: 100% 100%;
+}
+.container .content .content_right .more .web_icon ul li:nth-of-type(3) a:hover{
+    background: url("../images/zhit.png");
+    background-size: 100% 100%;
+}
+.container .content .content_right .more .web_icon ul li:nth-of-type(4) a:hover{
+    background: url("../images/wxt.png");
+    background-size: 100% 100%;
+}
+.container .content .content_right .more .web_icon p{
+    display: inline-block;
+    margin-left: 15px;
+    height: 34px;
+    line-height: 34px;
+}
+.container .content .content_right .more .web_icon a{
+    color: #999999;
+}
+.container .content .content_right .more .web_icon span{
+    display: inline-block;
+    width: 15px;
+    height: 12px;
+    background: url("../images/loadMore.png");
+    background-size: 100% 100%;
+    margin-left: 5px;
+}
+.container .foot{
+      width: 100%;
+    height: 50px;
+    text-align: center;
+    margin-top: 50px;
+}
+.container .foot p{
+    height: 25px;
+    line-height: 25px;
+}
+.container .foot p a{
+    color: #333333;
+    padding: 0 6px;
+}
+.container .foot p a:hover{
+    color: #ff4e00;
+}
